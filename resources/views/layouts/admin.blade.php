@@ -44,6 +44,14 @@
     <script src="{{ asset('admin/js/smooth-scrollbar.min.js') }}" defer></script>
     <script src="{{ asset('admin/js/chartjs.min.js') }}" defer></script>
     <script src="{{ asset('admin/js/soft-ui-dashboard.min.js?v=1.0.7') }}" defer></script>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    @if (session('status'))
+        <script>
+            swal("{{ session('status') }}");
+        </script>
+    @endif
+
     @yield('scripts')
 </body>
 
