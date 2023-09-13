@@ -18,7 +18,7 @@
     <link href="{{ asset('admin/css/soft-ui-dashboard.css?v=1.0.7') }}" rel="stylesheet">
     <link href="{{ asset('admin/css/nucleo-svg.css" rel="stylesheet') }}" />
     <link href="{{ asset('admin/css/nucleo-icons.css" rel="stylesheet') }}" />
-    <link href="{{ asset('admin/css/custom.css" rel="stylesheet') }}" />
+    <link href="{{ asset('admin/css/custom.css') }}" rel="stylesheet" />
 
 </head>
 
